@@ -22,7 +22,7 @@ npm i node
 npm i npm
 ```
 
-### Then, create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finished all the required options.
+### Then, create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finish all the required options.
 
 Open the terminal and go to the workspace, make nodejs-bot directory
 ```
