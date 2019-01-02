@@ -2,7 +2,6 @@
 fork from https://github.com/virushuo/mixin-node/tree/master/examples
 */
 const fs = require('fs');
-const zlib = require("zlib");
 const mixinjs = require("mixin-node");
 const config = require("./config");
 const Koa = require('koa');
@@ -66,7 +65,7 @@ let textEventHandle = (msgobj) => {
 
       });
     } else if (msgobj.data.data == "img") {
-      fs.readFile("./test.png", function(err, data) {
+      fs.readFile("snowboarding-solid-svg.png", function(err, data) {
         let base64Image = new Buffer(data, 'binary').toString(
           'base64');
         mixin.sendImage(base64Image, msgobj).then(function(receipt_id) {
