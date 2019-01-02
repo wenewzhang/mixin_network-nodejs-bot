@@ -83,7 +83,10 @@ let textEventHandle = (msgobj) => {
     }
 }
 ```
-now,you can run **node app.js** to make the bot online.
+now,you can run **node app.js** to take the bot online.
+```
+node app.js
+```
 
 install [Mixin Messenger](https://mixin.one/),add the bot as your friend,(for example,this bot id is 7000101639) and then send command!
 
