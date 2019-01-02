@@ -25,11 +25,12 @@ npm i npm
 ### Then, create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finish all the required options.
 write down three required infomations: user id, session id, private key, mixin-node need this three options to sign token.
 
-| Key | Description                                  |
-| --- | -------------------------------------------- |
-| user id | unique bot identify, for token signature |
-| session id | session identify, for token signature |
-| private key | RSA private key for token signature  |
+| Key | Description                                  |   example                                         |
+| --- | -------------------------------------------- |  -------------------------------------------------
+| user id | unique bot identity, uuid,for token signature | 21042518-85c7-4903-bb19-f311813d1f51          |
+| session id | session identity, uuid,for token signature | 5eb96d87-028e-4199-a6d3-6fc7da8dfe41          |
+| private key | RSA private key for token signature  | -----BEGIN RSA PRIVATE KEY----- -----END RSA PRIVATE KEY-----
+
 
 ![mixin_network-keys](https://github.com/wenewzhang/mixin_network-nodejs-bot/blob/master/mixin_network-keys.png)
 Open the terminal and go to the workspace, make nodejs-bot directory
