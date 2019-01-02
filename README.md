@@ -4,7 +4,7 @@ the developers could earn money from the user's exchanges,It's a excellent ecosy
 
 This article will show you howto create a nodejs-bot
 
-## First of all,Install npm node on you OS
+### First of all,Install npm node on you OS
 mac OS
 ```
 brew install node npm
@@ -22,9 +22,9 @@ npm i node
 npm i npm
 ```
 
-## Create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finished all the required options.
+### Create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finished all the required options.
 
-## Open the terminal and go to the workspace,make nodejs-bot directory
+Open the terminal and go to the workspace,make nodejs-bot directory
 ```
 mkdir nodejs-bot
 cd nodejs-bot/
@@ -44,7 +44,7 @@ run **npm init** command then according the prompt to create the project,the fin
   "license": "ISC"
 }
 ```
-##This example dependent on mixin-node SDK and koa,
+This example dependent on mixin-node SDK and koa,
 ```
 const mixinjs = require("mixin-node");
 const Koa = require('koa');
@@ -61,7 +61,7 @@ now,the package.json add two packages
 }
 ```
 
-##The source code brief explanation
+The source code brief explanation
 Initial the connection and sign the token,
 ```
 const config = require("./config");
