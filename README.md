@@ -4,7 +4,7 @@ the developers could earn money from the user's exchanges. It's a excellent ecos
 
 This article will show you howto create a nodejs-bot
 
-### First of all,install npm node on your OS
+### First of all, install npm node on your OS
 mac OS
 ```
 brew install node npm
@@ -23,7 +23,13 @@ npm i npm
 ```
 
 ### Then, create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finish all the required options.
-
+write down three required infomations: user id, session id, private key, mixin-node need this three options to sign token.
+| Key | Description |
+| --- | --- |
+| user id | unique bot identify, for token signature |
+| session id | session identify, for token signature |
+| private key | RSA private key for token signature |
+![mixin_network-keys](https://github.com/wenewzhang/mixin_network-nodejs-bot/blob/master/mixin_network-keys.png)
 Open the terminal and go to the workspace, make nodejs-bot directory
 ```
 mkdir nodejs-bot
@@ -78,12 +84,12 @@ answer the question **pay**
 ```
 let textEventHandle = (msgobj) => {
     if (msgobj.data.data == "pay") {
-      mixin.sendText("Payment:", msgobj).then(function(receipt_id) {
+      ...
       }
     }
 }
 ```
-### Finally,you can run **node app.js** to take the bot online.
+### Finally, you can run **node app.js** to take the bot online.
 ```
 node app.js
 ```
