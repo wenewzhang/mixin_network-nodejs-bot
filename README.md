@@ -1,10 +1,10 @@
 # Howto create nodejs bot for Mixin Network step by step
-Mixin Network is a cryptocurrency payment which confirm the transaction instantly,  users can deposit,withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
-the developers could earn money from the user's exchanges,It's a excellent ecosystem.
+Mixin Network is a cryptocurrency payment which confirm the transaction instantly,  users can deposit, withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
+the developers could earn money from the user's exchanges, It's a excellent ecosystem.
 
 This article will show you howto create a nodejs-bot
 
-### First of all,Install npm node on you OS
+### First of all,install npm node on you OS
 mac OS
 ```
 brew install node npm
@@ -22,15 +22,15 @@ npm i node
 npm i npm
 ```
 
-### Create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finished all the required options.
+### Then, create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finished all the required options.
 
-Open the terminal and go to the workspace,make nodejs-bot directory
+Open the terminal and go to the workspace, make nodejs-bot directory
 ```
 mkdir nodejs-bot
 cd nodejs-bot/
 npm init
 ```
-run **npm init** command then according the prompt to create the project,the finished package.json like below:
+run **npm init** command then according the prompt to create the project, the finished package.json like below:
 ```
 {
   "name": "nodejs-bot",
@@ -61,7 +61,7 @@ now,the package.json add two packages
 }
 ```
 
-### The source code brief explanation
+### The next,source code brief explanation
 Initial the connection and sign the token,
 ```
 const config = require("./config");
@@ -83,11 +83,11 @@ let textEventHandle = (msgobj) => {
     }
 }
 ```
-now,you can run **node app.js** to take the bot online.
+### Finally,you can run **node app.js** to take the bot online.
 ```
 node app.js
 ```
 
-install [Mixin Messenger](https://mixin.one/),add the bot as your friend,(for example,this bot id is 7000101639) and then send command!
+install [Mixin Messenger](https://mixin.one/),add the bot as your friend,(for example, this bot id is 7000101639) and then send command!
 
 enjoy!
