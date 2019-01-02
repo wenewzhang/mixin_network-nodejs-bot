@@ -1,5 +1,5 @@
 # Howto create nodejs bot for Mixin Network step by step
-Mixin Network is a cryptocurrency payment which confirm the transaction instantly,  Users can deposit,withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
+Mixin Network is a cryptocurrency payment which confirm the transaction instantly,  users can deposit,withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
 the developers could earn money from the user's exchanges,It's a excellent ecosystem.
 
 This article will show you howto create a nodejs-bot
