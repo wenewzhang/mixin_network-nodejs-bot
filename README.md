@@ -1,8 +1,8 @@
 # Howto create nodejs bot for Mixin Network step by step
-Mixin Network is a cryptocurrency payment which confirm the transaction instantly,  Users can deposit,withdraw and pay bitcoin or altcoins through Mixin Messenger,
-the developers would earn money from the user's exchanges,It's a excellent ecosystem.
+Mixin Network is a cryptocurrency payment which confirm the transaction instantly,  Users can deposit,withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
+the developers could earn money from the user's exchanges,It's a excellent ecosystem.
 
-This article show you howto create a nodejs-bot
+This article will show you howto create a nodejs-bot
 
 ## First of all,Install npm node on you OS
 mac OS
@@ -85,6 +85,6 @@ let textEventHandle = (msgobj) => {
 ```
 now,you can run **node app.js** to make the bot online.
 
-install Mixin Messenger,add the bot as your friend,(for example,this bot id is 7000101639) and then send command!
+install [Mixin Messenger](https://mixin.one/),add the bot as your friend,(for example,this bot id is 7000101639) and then send command!
 
 enjoy!
