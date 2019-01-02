@@ -92,8 +92,8 @@ let textEventHandle = (msgobj) => {
     }
 }
 ```
-open config.js, replace your client_id with user id,session_id -> session id,
-open mixin_dev.key, replace the private key.
+open config.js, replace your client_id with user id, session_id with session id,
+open mixin_dev.key, replace the private key with your's.
 > config.js
 ```
 config.mixin = {
