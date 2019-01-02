@@ -16,7 +16,7 @@ apt update
 apt upgrade
 apt install node npm
 ```
-if you npm and node too old,execute npm i npm/node to upgrade the npm-self and node
+if your npm and node are too old, execute **npm i npm/node** to upgrade npm-self and node
 ```
 npm i node
 npm i npm
