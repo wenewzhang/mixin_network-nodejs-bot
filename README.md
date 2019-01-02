@@ -24,11 +24,11 @@ npm i npm
 
 ### Then, create you first bot through [Mixin.One](https://developers.mixin.one/dashboard),if you get a "Invaild Data" message,Just finish all the required options.
 write down three required infomations: user id, session id, private key, mixin-node need this three options to sign token.
-| Key | Description |
-| --- | --- |
+| Key | Description                                  |
+| --- | -------------------------------------------- |
 | user id | unique bot identify, for token signature |
 | session id | session identify, for token signature |
-| private key | RSA private key for token signature |
+| private key | RSA private key for token signature  |
 ![mixin_network-keys](https://github.com/wenewzhang/mixin_network-nodejs-bot/blob/master/mixin_network-keys.png)
 Open the terminal and go to the workspace, make nodejs-bot directory
 ```
@@ -68,8 +68,8 @@ now,the package.json add two packages
 ```
 
 ### The next, source code brief explanation
+Initial the connection and sign the token.
 > app.js
-Initial the connection and sign the token,
 ```
 const config = require("./config");
 let opts = config.mixin;
@@ -108,3 +108,4 @@ node app.js
 install [Mixin Messenger](https://mixin.one/),add the bot as your friend,(for example, this bot id is 7000101639) and then send command!
 
 enjoy!
+![mixin_messenger](https://github.com/wenewzhang/mixin_network-nodejs-bot/blob/master/mixin_messenger-bot.png)
