@@ -51,7 +51,7 @@ mixin.start();
 let textEventHandle = (msgobj) => {
   return new Promise((resolve, reject) => {
     const CNB = "965e5c6e-434c-3fa9-b780-c50f43cd955c";
-    if (msgobj.data.data == "hi") {
+    if (msgobj.data.data == "pay") {
       mixin.sendText("Payment:", msgobj).then(function(receipt_id) {
         let payLink = "https://mixin.one/pay?recipient=" + config.mixin
           .client_id + "&asset=" + CNB + "&amount=10" + '&trace=' +

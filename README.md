@@ -30,7 +30,7 @@ mkdir nodejs-bot
 cd nodejs-bot/
 npm init
 ```
-run **npm init** command then according the prompt to create the project, the finished package.json like below:
+run **npm init** command then according the prompt to create the project, the finished package.json is like below:
 ```
 {
   "name": "nodejs-bot",
@@ -44,7 +44,7 @@ run **npm init** command then according the prompt to create the project, the fi
   "license": "ISC"
 }
 ```
-this example dependent on mixin-node SDK and koa,
+this example dependents on mixin-node SDK and koa,
 ```
 const mixinjs = require("mixin-node");
 const Koa = require('koa');
