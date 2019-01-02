@@ -44,7 +44,7 @@ run **npm init** command then according the prompt to create the project,the fin
   "license": "ISC"
 }
 ```
-This example dependent on mixin-node SDK and koa,
+this example dependent on mixin-node SDK and koa,
 ```
 const mixinjs = require("mixin-node");
 const Koa = require('koa');
@@ -61,7 +61,7 @@ now,the package.json add two packages
 }
 ```
 
-The source code brief explanation
+### The source code brief explanation
 Initial the connection and sign the token,
 ```
 const config = require("./config");
