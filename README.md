@@ -62,7 +62,7 @@ execute **npm install mixin-node** to add the packages
 ```
 npm install koa mixin-node
 ```
-now,the package.json add two packages
+now, the package.json add two packages,if you clone this repository, just excute **npm install** to download all dependency packages. 
 ```
 "dependencies": {
   "koa": "^2.6.2",
