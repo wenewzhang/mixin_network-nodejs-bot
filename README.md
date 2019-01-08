@@ -1,3 +1,6 @@
+Update: if you look for a nodejs mixin network develop tutorial,step here:
+## [Step by step: How to use nodejs to create a bot in Mixin Messenger(https://github.com/myrual/mixin_network-nodejs-bot2/blob/master/README2.md)
+
 # Howto create nodejs bot for Mixin Network step by step
 Mixin Network is a cryptocurrency payment which confirm the transactions instantly,  users can deposit, withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
 the developers could earn money from the user's exchanges. It's a excellent ecosystem.
@@ -62,7 +65,7 @@ execute **npm install mixin-node** to add the packages
 ```
 npm install koa mixin-node
 ```
-now, the package.json add two packages,if you clone this repository, just excute **npm install** to download all dependency packages. 
+now, the package.json add two packages,if you clone this repository, just excute **npm install** to download all dependency packages.
 ```
 "dependencies": {
   "koa": "^2.6.2",
