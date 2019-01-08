@@ -1,5 +1,5 @@
 Update: if you look for a nodejs mixin network development tutorial,step here:
-## [Step by step: How to use nodejs to create a bot in Mixin Messenger](https://github.com/myrual/mixin_network-nodejs-bot2/blob/master/README2.md)
+## [Step by step: How to use nodejs to create a bot in Mixin Messenger](https://github.com/myrual/mixin_network-nodejs-bot2/blob/master/README.md)
 
 # Howto create nodejs bot for Mixin Network step by step
 Mixin Network is a cryptocurrency payment which confirm the transactions instantly,  users can deposit, withdraw and pay bitcoin or altcoins through [Mixin Messenger](https://mixin.one/),
